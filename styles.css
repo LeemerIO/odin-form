@@ -1,1 +1,23 @@
-styles
+body {
+    display: flex;
+    flex-direction: row;
+}
+
+.left {
+    flex-direction: column;
+    margin-right: 33%;
+}
+
+.right {
+    flex-direction: column;
+    flex-grow: 2;
+}
+
+.odin {
+    padding-left: 50%;
+    padding-right: 50%;
+}
+
+h1 {
+    text-align: center;
+}
